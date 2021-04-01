@@ -5,12 +5,12 @@ student id: 21600567
 name: Lee Ha Rim
 -----------------------------
 
-gcc target.c -o target
-gcc target2.c -o target2
-gcc solution.c -o solution
-gcc pctest.c -o pctest
+1.gcc target.c -o target
+2.gcc target2.c -o target2
+3.gcc solution.c -o solution
+4.gcc pctest.c -o pctest
 
 
 ./pctest Test.txt 10 ./target ./solution
-or
+                  or
 ./pctest Test.txt 10 ./target2 ./solution
