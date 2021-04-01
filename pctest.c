@@ -51,6 +51,13 @@ main(int argc, char * argv[]){
 
 			execl(argv[4], num, num1, num2, num3, num4, (char *) 0x0);
 		}
+		else {
+			pid_t term_pid;
+			int exit_code;
+
+			term_pid = wait(&exit_code);
+			term_pid = wait(&exit_code);
+		}
 
 
 	}
